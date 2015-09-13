@@ -10,3 +10,17 @@ There might be some changes that you don't want locally that someone else has ad
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 You fork a repository on GitHub when you want a copy of someone's repository that you can make changes to.  A clone is a local copy of a repository on GitHub.  Branches are offshoots of a repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can work on a file (even offline) and then once you have internet access you can check for changes that others have made on GitHub, fetch/merge or pull them and then push the new origin/master to GitHub.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I suppose that I would use one file and use a "track changes" function like in Word.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I would want to make changes in a separate branch when I'm working on a new feature that I'm not sure will make the cut.  I'd work directly in master when I'm debugging or doing something relatively simple.
+
+
